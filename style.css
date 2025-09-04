@@ -1,0 +1,61 @@
+body {
+    background-color: #fce4ec; /* A soft, romantic pink */
+    font-family: 'Georgia', serif; /* A classic, elegant font */
+    color: #333; /* Dark gray for good readability */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+p {
+    background-color: #fff; /* White background for the poem */
+    border: 3px solid #ff80ab; /* A vibrant pink border */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* A soft shadow for depth */
+    padding: 40px;
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.6;
+    animation: fadeIn 2s ease-in-out;
+}
+
+i {
+    font-size: 1.5em; /* Larger font size for the poem text */
+    color: #c2185b; /* A deep, passionate red/pink */
+    font-style: italic;
+    display: block;
+    margin-bottom: 20px;
+}
+
+b {
+    font-size: 1.2em;
+    color: #4a148c; /* A rich purple for emphasis */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+a {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #e91e63; /* Bright pink for the link */
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+a:hover {
+    border-bottom: 2px solid #e91e63;
+    transform: scale(1.1); /* Makes the link slightly larger on hover */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
